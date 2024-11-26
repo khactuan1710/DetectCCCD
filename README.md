@@ -1,6 +1,8 @@
 # CCCD Text Recognition API
 
-1. Run Server:
+1. Test Example:
 
    ```bash
-   node server.js
+   curl --location 'http://localhost:8080/api/detect/front' \
+   --header 'Content-Type: application/x-www-form-urlencoded' \
+   --data-urlencode 'imageBase64=data:image/jpeg;base64,/9j/4AAQSkZJRgABAQE...'
