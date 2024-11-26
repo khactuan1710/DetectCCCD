@@ -1,6 +1,6 @@
 # CCCD Text Recognition API
 
-1. Test Example:
+1. Front Image Detect API:
 
    ```bash
    curl --location 'http://localhost:8080/api/detect/front' \
